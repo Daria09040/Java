@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Mgr {
+public class TaskMgr {
     ArrayList<Task> tasks;
     Scanner in;
     int id;
@@ -12,7 +12,7 @@ public class Mgr {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MM/yyyy");
 
 
-    public Mgr(){
+    public TaskMgr(){
         tasks = new ArrayList<>();
         in = new Scanner(System.in);
         id = 0;
